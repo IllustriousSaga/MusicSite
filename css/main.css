@@ -168,6 +168,7 @@ Created by : mutationthemes
      right: 2.875rem;
      bottom: 3.6875rem;
      padding-top: .6rem;
+     border-radius:50%;
      z-index: 100;
      color: #ffffff;
 }
@@ -381,7 +382,7 @@ Created by : mutationthemes
      letter-spacing: .425rem;
      font-weight: 100;
 }
- .back-rect {
+ /* .back-rect {
      border: 10px solid transparent;
      -moz-border-image: -moz-linear-gradient(top, #d0343a 0%, #ff5252 100%);
      -ms-border-image: -ms-linear-gradient(top, #d0343a 0%, #ff5252 100%);
@@ -396,22 +397,8 @@ Created by : mutationthemes
      -ms-transform: translate(-50%, -50%);
      transform: translate(-50%, -50%);
      position: absolute;
-}
- .front-rect {
-     border-right: 10px solid transparent;
-     -moz-border-image: -moz-linear-gradient(top, #d0343a 0%, #ff5252 100%);
-     -webkit-border-image: -webkit-linear-gradient(top, #ff3d49 0%, #ff5252 100%);
-     border-image: linear-gradient(to bottom, #d0343a 0%, #ff5252 100%);
-     border-image-slice: 1;
-     width: 17.25rem;
-     height: 21.5625rem;
-     top: 50%;
-     left: 50%;
-     -webkit-transform: translate(-50%, -50%);
-     -ms-transform: translate(-50%, -50%);
-     transform: translate(-50%), -50%;
-     position: absolute;
-}
+} */
+
  .video-play-but {
      border: 2px solid #ffffff;
      border-radius: 50%;
@@ -667,7 +654,9 @@ Created by : mutationthemes
 }
 .border-dashed {
     padding: 8px;
-    background-image: repeating-linear-gradient(135deg, #ff5252, #ff5252 10px, #FFF 0px, #FFF 20px, #13181d 0px, #13181d 30px, #FFF 0px, #FFF 40px);
+    border-style:solid;
+    border-width:5px;
+    /* background-image: repeating-linear-gradient(135deg, #ff5252, #ff5252 10px, #FFF 0px, #FFF 20px, #13181d 0px, #13181d 30px, #FFF 0px, #FFF 40px); */
 }
  .block-subscribe{
      position: relative;
