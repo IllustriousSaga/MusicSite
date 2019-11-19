@@ -382,12 +382,12 @@ Created by : mutationthemes
      letter-spacing: .425rem;
      font-weight: 100;
 }
- /* .back-rect {
+  .back-rect {
      border: 10px solid transparent;
-     -moz-border-image: -moz-linear-gradient(top, #d0343a 0%, #ff5252 100%);
-     -ms-border-image: -ms-linear-gradient(top, #d0343a 0%, #ff5252 100%);
-     -webkit-border-image: -webkit-linear-gradient(top, #d0343a 0%, #ff5252 100%);
-     border-image: linear-gradient(to bottom, #d0343a 0%, #ff5252 100%);
+     -moz-border-image: -moz-linear-gradient(top, #0b84db 0%, #ff5252 100%);
+     -ms-border-image: -ms-linear-gradient(top, #0b84db 0%, #ff5252 100%);
+     -webkit-border-image: -webkit-linear-gradient(top, ##0b84db 0%, #ff5252 100%);
+     border-image: linear-gradient(to bottom, #0b84db 0%, #ff5252 100%);
      border-image-slice: 1;
      width: 17.25rem;
      height: 21.5625rem;
@@ -397,7 +397,7 @@ Created by : mutationthemes
      -ms-transform: translate(-50%, -50%);
      transform: translate(-50%, -50%);
      position: absolute;
-} */
+} 
 
  .video-play-but {
      border: 2px solid #ffffff;

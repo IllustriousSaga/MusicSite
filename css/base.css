@@ -668,5 +668,11 @@ div[class*="col-"].gap-double-sm, .gap-double-sm {
 .bg-dark-blue {
     background: #13181d;
 }
+.bg-blue {
+    background: #18b0de;
+}
+.bg-medium-blue {
+    background: #0b84db;
+}
 
 /*End misc */
