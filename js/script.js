@@ -49,8 +49,10 @@
 
 
     var mainHero = $(" .hero .main-slider .slides li");
+    var portfolioHero = $(" .slides2 li");
     function mainHeroResize() {
         mainHero.css('height', $(window).height());
+        portfolioHero.css('height', 300);
     }
 
     $(function() {

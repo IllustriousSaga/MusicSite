@@ -376,6 +376,7 @@ section,
 .front-p {
     position: relative;
     z-index: 100;
+    margin-top:20px;
 }
 .uppercase {
     text-transform: uppercase;
