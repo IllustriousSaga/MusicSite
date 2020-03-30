@@ -192,7 +192,7 @@ Created by : mutationthemes
  .background-img {
      background-attachment: scroll;
      background-clip: border-box;
-     background-color: #151514;
+     /* background-color: #151514; */
      background-image: none;
      background-origin: padding-box;
      background-position: 50% 50% !important;
@@ -593,8 +593,12 @@ Created by : mutationthemes
      position: relative;
      
 }
+.block-member img{
+    height:300px;
+    width:100%;
+}
  .block-member .member-info{
-     position: absolute;
+     position: relative;
      background-image: linear-gradient(to right top, #0b84db, #1c8bde, #2992e1, #3599e4, #40a0e7);
      left: 0;
      bottom: 0;
@@ -1080,6 +1084,7 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
 .portfolio-btn{
     align-content: center;
     width:100%;
+    margin-top:10px;
     margin-bottom:100px;
 }
 
